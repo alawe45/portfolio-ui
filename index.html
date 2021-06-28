@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta content="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Protfolio UI</title>
+    <link rel="icon" href="images/favorite-Icon.svg">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700&display=swap">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css'> <!--- Boxicon --->
+  </head>
+  <body>
+    <header class="header flex">
+      <div class="header__overlay has-fade"></div>
+
+      <nav class="navbar flex">
+        <div class="toggle-menu hide-for-desktop" role="button" tabindex="0" aria-label="toggleMenu">
+          <span class="toggle-menu__item"></span>
+          <span class="toggle-menu__item"></span>
+          <span class="toggle-menu__item"></span>
+        </div>
+
+        <ul class="menu flex has-fade">
+          <li class="menu__item">
+            <a href="#" class="menu__link">Blog</a>
+          </li>
+          <li class="menu__item">
+            <a href="#" class="menu__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero container flex">
+      <div class="hero__image"></div>
+
+      <div class="hero__text">
+        <h1 class="hero__title">Hi, I am John, Creative Technologist</h1>
+        <p class="hero__description">
+          Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. 
+          Velit officia consequat duis enim velit mollit. 
+          Exercitation veniam consequat sunt nostrud amet.
+        </p>
+
+        <a href="#" class="btn btn--main">Download Resume</a>
+      </div>
+    </section>
+
+    <section class="recent-posts">
+      <div class="container">
+        <header class="recent-posts__header flex">
+          <h2 class="recent-posts__title">Recent posts</h2>
+          <a href="#" class="recent-posts__link">View all</a>
+        </header>
+  
+        <div class="posts-area flex">
+          <div class="post-card">
+            <h3 class="post-card__title">Making a design system from scratch</h3>
+  
+            <div class="post-card__info">
+              <span class="post-card__date">12 Feb 2020</span>
+              <span class="post-card__tags">Design, Pattern</span>
+            </div>
+  
+            <p class="post-card__description">
+              Amet minim mollit non deserunt ullamco 
+              est sit aliqua dolor do amet sint. Velit officia consequat 
+              duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+
+          <div class="post-card">
+            <h4 class="post-card__title">Creating pixel perfect icons in Figma</h4>
+  
+            <div class="post-card__info">
+              <span class="post-card__date">12 Feb 2020</span>
+              <span class="post-card__tags">Design, Pattern</span>
+            </div>
+  
+            <p class="post-card__description">
+              Amet minim mollit non deserunt ullamco 
+              est sit aliqua dolor do amet sint. Velit officia consequat 
+              duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured">
+      <div class="container">
+        <header class="featured__header flex">
+          <h2 class="featured__title">Featured works</h2>
+        </header>
+
+        <div class="featured-cards-area flex">
+          <div class="featured-card flex">
+            <div class="featured-card__image featured-card__image--1"></div>
+  
+            <div class="featured-card__text">
+              <h1 class="featured-card__title">Designing Dashboards</h1>
+              <div class="featured-card__info flex">
+                <span class="featured-card__data-year">2020</span>
+                <span class="featured-card__tags">Dashboard</span>
+              </div>
+              <p class="featured-card__description">
+                Amet minim mollit non deserunt ullamco est 
+                sit aliqua dolor do amet sint. Velit officia consequat duis 
+                enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+
+          <div class="featured-card flex">
+            <div class="featured-card__image featured-card__image--2"></div>
+  
+            <div class="featured-card__text">
+              <h1 class="featured-card__title">Vibrant Portraits of 2020</h1>
+              <div class="featured-card__info flex">
+                <span class="featured-card__data-year">2018</span>
+                <span class="featured-card__tags">Illustration</span>
+              </div>
+              <p class="featured-card__description">
+                Amet minim mollit non deserunt ullamco est 
+                sit aliqua dolor do amet sint. Velit officia consequat duis 
+                enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+
+          <div class="featured-card flex">
+            <div class="featured-card__image featured-card__image--3"></div>
+  
+            <div class="featured-card__text">
+              <h1 class="featured-card__title">36 Days of Malayalam type</h1>
+              <div class="featured-card__info flex">
+                <span class="featured-card__data-year">2018</span>
+                <span class="featured-card__tags">Typography</span>
+              </div>
+              <p class="featured-card__description">
+                Amet minim mollit non deserunt ullamco est 
+                sit aliqua dolor do amet sint. Velit officia consequat duis 
+                enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer__links flex">
+        <a href="#" class="footer__link flex"><i class='bx bxl-facebook-square'></i></a>
+        <a href="#" class="footer__link flex"><i class='bx bxl-instagram' ></i></a>
+        <a href="#" class="footer__link flex"><i class='bx bxl-twitter' ></i></a>
+        <a href="#" class="footer__link flex"><i class='bx bxl-linkedin'></i></a>
+      </div>
+      <div class="footer__text">
+        <p class="footer__paragraph">Copyright ©2020 All rights reserved</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
